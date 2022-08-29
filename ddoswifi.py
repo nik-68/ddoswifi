@@ -4,7 +4,7 @@ import sys
 import time
 import socket
 import random
-from turtle import clear
+import turtle 
 #----------------------------------------------------------------------#
 def ddos():
     print("")
@@ -18,6 +18,8 @@ def ddos():
     print ("MASUKAN IP DARI WIFI YANG ANDA INGIN SERANG")
     print ("")
 #----------------------------------------------------------------------#
+time.sleep(2)
+os.system("clear")
 def put():
     print("--------------------------------------------------------------------------")
     print("--------------------------------------------------------------------------")
@@ -30,6 +32,8 @@ def put():
     print("--------------------------------------------------------------------------")
     print("--------------------------------------------------------------------------")
     print("")
+    time.sleep(3)
+    os.system("clear")
     print("DDOS WIFI TOOLS BY YONATHAN GM")
     print("===================================")
     print("TYPE [gas] TO START THE PROGRAM ")
