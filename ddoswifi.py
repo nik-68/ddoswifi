@@ -4,7 +4,6 @@ import sys
 import time
 import socket
 import random
-import turtle 
 #----------------------------------------------------------------------#
 def ddos():
     print("")
